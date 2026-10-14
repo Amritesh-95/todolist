@@ -2,7 +2,7 @@
 
 A focused, responsive to-do app built with Next.js and React. It greets you by name, shows a fresh quote and background image on every visit, and includes a built-in focus timer, all wrapped in a glass/blur interface.
 
-**Live demo:** [todolist-me-cdd1.vercel.app](https://todolist-me-cdd1.vercel.app)
+**Live demo:** [amritesh-tasks.vercel.app](https://amritesh-tasks.vercel.app)
 
 ## Features
 
