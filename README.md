@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Manager
+
+A focused, responsive to-do app built with Next.js and React. It greets you by name, shows a fresh quote and background image on every visit, and includes a built-in focus timer, all wrapped in a glass/blur interface.
+
+**Live demo:** [todolist-me-cdd1.vercel.app](https://todolist-me-cdd1.vercel.app)
+
+## Features
+
+- **Task management**: add tasks with a title and description, mark them complete, and delete them
+- **Live task counter** in the sidebar showing how many tasks are left
+- **Focus timer**: stopwatch-style timer with 5, 15, and 25 minute presets, a draggable dial to set custom minutes, and Start/Reset controls
+- **Fresh quote and background image on every reload**
+- **Personalised welcome** greeting
+- **Glassmorphism UI** with blurred cards and sidebar over a full-screen background
+- Responsive layout
+
+## Tech Stack
+
+| Purpose    | Technology           |
+| ---------- | -------------------- |
+| Framework  | Next.js (App Router) |
+| UI library | React                |
+| Styling    | Tailwind CSS         |
+| Deployment | Vercel               |
+
+## Project Structure
+
+```
+.
+├── app/           # Pages and layouts (Next.js App Router)
+├── components/    # Reusable UI components
+├── public/        # Static assets
+└── package.json
+```
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/Amritesh-95/todolist.git
+   cd todolist
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Start the development server:
 
-## Learn More
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## What I Learned
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Building an interactive app with the Next.js App Router and reusable React components
+- Managing task and timer state in React
+- Building a draggable dial control for the focus timer
+- Creating a glassmorphism UI with Tailwind CSS
+- Deploying a Next.js app on Vercel
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Amritesh Kumar**
+[GitHub](https://github.com/Amritesh-95)
